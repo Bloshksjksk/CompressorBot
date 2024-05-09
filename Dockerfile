@@ -17,3 +17,5 @@ COPY . /app
 
 # CMD gunicorn app:app & python3 bot.py
 CMD python3 start.py
+
+EXPOSE 80
